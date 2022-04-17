@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  padding: 16px 78px;
+  align-items: center;
+  box-shadow: 2px 2px 2px gainsboro;
+}
+
+.navbar {
+  padding: 0 80px 0 30px;
+}
+
+.logo-1 {
+  width: 130px;
+  font-size: 32px;
+  font-weight: 1000;
+  color: #0084ff;
+  font-family: sans-serif;
+}
+
+.logo-2 {
+  margin: 0;
+  font-weight: 500;
+  font-family: Raleway, sans-serif;
+  font-style: italic;
+}
+
+i {
+  padding: 0 15px 0 15px;
+}
+
+#dropdown {
+  font-family: Raleway, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-top: 16px;
+}
+.heading {
+  color: #000;
+  font-weight: 600;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+}
+
+.icon-1 {
+  margin-left: 8px;
+  padding: 0px;
+}
+
+.icon-1 h3 {
+  display: inline;
+  padding: 0px 0px 0px 14px;
+  font-family: Raleway, sans-serif;
+}
+
+.icon-1 h3 i {
+  color: #0084ff;
+}
+
+.ops {
+  margin-left: 5px;
+  margin-top: 20px;
+  padding-left: 14px;
+  /* padding-right: 14px; */
+}
+
+.Category {
+  padding: 6px 14px;
+  width: auto;
+  color: #0084ff;
+  border-radius: 25px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+  display: inline;
+}
+
+#active {
+  color: #fff;
+  background-color: #0084ff;
+}
+
+.container {
+  margin: 4%;
+  padding: 10px 10px;
+  align-items: center;
+}
+
+.card {
+  width: 28%;
+  /* border-radius: 10px; */
+  display: inline-block;
+  margin: 2%;
+  background-color: antiquewhite;
+}
+
+.img_1 {
+  /* height: 176px; */
+  width: 100%;
+}
+
+.img_1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.text-sec {
+  padding: 10px 24px;
+}
+
+.heading {
+  font-size: 18px;
+  padding: 20px;
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+}
+
+.heading h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+}
+
+.author {
+  color: #0096ff;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.details p {
+  padding-top: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 4px 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.card button {
+  padding: 10px;
+  margin: 5px;
+  background-color: blue;
+  border: 1px solid;
+  border-radius: 10px;
+  color: whitesmoke;
+  width: 100px;
+}
+
+footer {
+  background-color: #172146;
+  padding: 80px 16%;
+}
